@@ -279,6 +279,7 @@ def test_all_models_loaded() -> None:
     """Test that all models are loaded."""
     _load()
     assert list(DEVICES) == [
+        "2ap5uq",
         "2o4lnm",
         "55aiho",
         "5xu9h3",
@@ -286,6 +287,7 @@ def test_all_models_loaded() -> None:
         "77atlz",
         "85nbtp",
         "9ku8nu",
+        "9s1s80",
         "clojes",
         "e6ofmn",
         "fallback",
